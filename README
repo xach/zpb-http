@@ -1,0 +1,9 @@
+ZPB-HTTP is some old code I use to fetch data via HTTP. 
+
+It includes an HTTP client and DNS resolver. It uses a hand-rolled
+socket system rather than sb-bsd-sockets. It has an epoll interface.
+
+I wrote it because I wanted more control over DNS and network
+timeouts. It works only on SBCL + Linux.
+
+Half-baked and undocumented. I am publishing it only to share ideas. 
